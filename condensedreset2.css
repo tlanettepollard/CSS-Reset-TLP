@@ -1,0 +1,58 @@
+/* Condensed Universal Reset */
+* {
+    box-sizing: inherit;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    outline: 1px solid black;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Additional Reset */
+
+html {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    outline: 1px solid black;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+picture, img {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
